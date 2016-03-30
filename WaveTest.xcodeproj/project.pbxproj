@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184757671CABD1C900560D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757661CABD1C900560D4D /* main.m */; };
+		1847576A1CABD1C900560D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757691CABD1C900560D4D /* AppDelegate.m */; };
+		1847576D1CABD1C900560D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847576C1CABD1C900560D4D /* ViewController.m */; };
+		184757701CABD1C900560D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847576E1CABD1C900560D4D /* Main.storyboard */; };
+		184757721CABD1C900560D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184757711CABD1C900560D4D /* Assets.xcassets */; };
+		184757751CABD1C900560D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184757731CABD1C900560D4D /* LaunchScreen.storyboard */; };
+		184757801CABD1C900560D4D /* WaveTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847577F1CABD1C900560D4D /* WaveTestTests.m */; };
+		1847578B1CABD1C900560D4D /* WaveTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847578A1CABD1C900560D4D /* WaveTestUITests.m */; };
+		1847579D1CABD82900560D4D /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847579C1CABD82900560D4D /* WaveView.m */; };
+		184757A31CABEED100560D4D /* WaveMathObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757A21CABEED100560D4D /* WaveMathObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1847577C1CABD1C900560D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1847575A1CABD1C900560D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184757611CABD1C900560D4D;
+			remoteInfo = WaveTest;
+		};
+		184757871CABD1C900560D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1847575A1CABD1C900560D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184757611CABD1C900560D4D;
+			remoteInfo = WaveTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184757621CABD1C900560D4D /* WaveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184757661CABD1C900560D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184757681CABD1C900560D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184757691CABD1C900560D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1847576B1CABD1C900560D4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1847576C1CABD1C900560D4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1847576F1CABD1C900560D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184757711CABD1C900560D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184757741CABD1C900560D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184757761CABD1C900560D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847577B1CABD1C900560D4D /* WaveTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847577F1CABD1C900560D4D /* WaveTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveTestTests.m; sourceTree = "<group>"; };
+		184757811CABD1C900560D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184757861CABD1C900560D4D /* WaveTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847578A1CABD1C900560D4D /* WaveTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveTestUITests.m; sourceTree = "<group>"; };
+		1847578C1CABD1C900560D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847579B1CABD82900560D4D /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		1847579C1CABD82900560D4D /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		184757A11CABEED100560D4D /* WaveMathObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveMathObject.h; sourceTree = "<group>"; };
+		184757A21CABEED100560D4D /* WaveMathObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveMathObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1847575F1CABD1C900560D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757781CABD1C900560D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757831CABD1C900560D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184757591CABD1C900560D4D = {
+			isa = PBXGroup;
+			children = (
+				184757641CABD1C900560D4D /* WaveTest */,
+				1847577E1CABD1C900560D4D /* WaveTestTests */,
+				184757891CABD1C900560D4D /* WaveTestUITests */,
+				184757631CABD1C900560D4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184757631CABD1C900560D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184757621CABD1C900560D4D /* WaveTest.app */,
+				1847577B1CABD1C900560D4D /* WaveTestTests.xctest */,
+				184757861CABD1C900560D4D /* WaveTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184757641CABD1C900560D4D /* WaveTest */ = {
+			isa = PBXGroup;
+			children = (
+				184757681CABD1C900560D4D /* AppDelegate.h */,
+				184757691CABD1C900560D4D /* AppDelegate.m */,
+				1847576B1CABD1C900560D4D /* ViewController.h */,
+				1847576C1CABD1C900560D4D /* ViewController.m */,
+				1847579B1CABD82900560D4D /* WaveView.h */,
+				1847579C1CABD82900560D4D /* WaveView.m */,
+				184757A11CABEED100560D4D /* WaveMathObject.h */,
+				184757A21CABEED100560D4D /* WaveMathObject.m */,
+				1847576E1CABD1C900560D4D /* Main.storyboard */,
+				184757711CABD1C900560D4D /* Assets.xcassets */,
+				184757731CABD1C900560D4D /* LaunchScreen.storyboard */,
+				184757761CABD1C900560D4D /* Info.plist */,
+				184757651CABD1C900560D4D /* Supporting Files */,
+			);
+			path = WaveTest;
+			sourceTree = "<group>";
+		};
+		184757651CABD1C900560D4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184757661CABD1C900560D4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1847577E1CABD1C900560D4D /* WaveTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1847577F1CABD1C900560D4D /* WaveTestTests.m */,
+				184757811CABD1C900560D4D /* Info.plist */,
+			);
+			path = WaveTestTests;
+			sourceTree = "<group>";
+		};
+		184757891CABD1C900560D4D /* WaveTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1847578A1CABD1C900560D4D /* WaveTestUITests.m */,
+				1847578C1CABD1C900560D4D /* Info.plist */,
+			);
+			path = WaveTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184757611CABD1C900560D4D /* WaveTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1847578F1CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTest" */;
+			buildPhases = (
+				1847575E1CABD1C900560D4D /* Sources */,
+				1847575F1CABD1C900560D4D /* Frameworks */,
+				184757601CABD1C900560D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveTest;
+			productName = WaveTest;
+			productReference = 184757621CABD1C900560D4D /* WaveTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1847577A1CABD1C900560D4D /* WaveTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184757921CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTestTests" */;
+			buildPhases = (
+				184757771CABD1C900560D4D /* Sources */,
+				184757781CABD1C900560D4D /* Frameworks */,
+				184757791CABD1C900560D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1847577D1CABD1C900560D4D /* PBXTargetDependency */,
+			);
+			name = WaveTestTests;
+			productName = WaveTestTests;
+			productReference = 1847577B1CABD1C900560D4D /* WaveTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184757851CABD1C900560D4D /* WaveTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184757951CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTestUITests" */;
+			buildPhases = (
+				184757821CABD1C900560D4D /* Sources */,
+				184757831CABD1C900560D4D /* Frameworks */,
+				184757841CABD1C900560D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184757881CABD1C900560D4D /* PBXTargetDependency */,
+			);
+			name = WaveTestUITests;
+			productName = WaveTestUITests;
+			productReference = 184757861CABD1C900560D4D /* WaveTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1847575A1CABD1C900560D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					184757611CABD1C900560D4D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1847577A1CABD1C900560D4D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 184757611CABD1C900560D4D;
+					};
+					184757851CABD1C900560D4D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 184757611CABD1C900560D4D;
+					};
+				};
+			};
+			buildConfigurationList = 1847575D1CABD1C900560D4D /* Build configuration list for PBXProject "WaveTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184757591CABD1C900560D4D;
+			productRefGroup = 184757631CABD1C900560D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184757611CABD1C900560D4D /* WaveTest */,
+				1847577A1CABD1C900560D4D /* WaveTestTests */,
+				184757851CABD1C900560D4D /* WaveTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184757601CABD1C900560D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184757751CABD1C900560D4D /* LaunchScreen.storyboard in Resources */,
+				184757721CABD1C900560D4D /* Assets.xcassets in Resources */,
+				184757701CABD1C900560D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757791CABD1C900560D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757841CABD1C900560D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1847575E1CABD1C900560D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847576D1CABD1C900560D4D /* ViewController.m in Sources */,
+				1847576A1CABD1C900560D4D /* AppDelegate.m in Sources */,
+				184757A31CABEED100560D4D /* WaveMathObject.m in Sources */,
+				184757671CABD1C900560D4D /* main.m in Sources */,
+				1847579D1CABD82900560D4D /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757771CABD1C900560D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184757801CABD1C900560D4D /* WaveTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184757821CABD1C900560D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847578B1CABD1C900560D4D /* WaveTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1847577D1CABD1C900560D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184757611CABD1C900560D4D /* WaveTest */;
+			targetProxy = 1847577C1CABD1C900560D4D /* PBXContainerItemProxy */;
+		};
+		184757881CABD1C900560D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184757611CABD1C900560D4D /* WaveTest */;
+			targetProxy = 184757871CABD1C900560D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1847576E1CABD1C900560D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1847576F1CABD1C900560D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184757731CABD1C900560D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184757741CABD1C900560D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1847578D1CABD1C900560D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1847578E1CABD1C900560D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184757901CABD1C900560D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184757911CABD1C900560D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184757931CABD1C900560D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveTest.app/WaveTest";
+			};
+			name = Debug;
+		};
+		184757941CABD1C900560D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveTest.app/WaveTest";
+			};
+			name = Release;
+		};
+		184757961CABD1C900560D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		184757971CABD1C900560D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuntu.text.WaveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1847575D1CABD1C900560D4D /* Build configuration list for PBXProject "WaveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847578D1CABD1C900560D4D /* Debug */,
+				1847578E1CABD1C900560D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1847578F1CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184757901CABD1C900560D4D /* Debug */,
+				184757911CABD1C900560D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184757921CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184757931CABD1C900560D4D /* Debug */,
+				184757941CABD1C900560D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184757951CABD1C900560D4D /* Build configuration list for PBXNativeTarget "WaveTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184757961CABD1C900560D4D /* Debug */,
+				184757971CABD1C900560D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1847575A1CABD1C900560D4D /* Project object */;
+}
