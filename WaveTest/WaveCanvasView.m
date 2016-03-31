@@ -82,7 +82,7 @@
     //起始相位
     _waveView2.b = 0;
     //速度
-    _waveView2.waveSpeed = 0.02;
+    _waveView2.waveSpeed = 0.12;
 }
 
 
@@ -99,7 +99,7 @@
 
 - (void)startWave2
 {
-    _timer2 = [NSTimer scheduledTimerWithTimeInterval:0.01f  //间隔时间
+    _timer2 = [NSTimer scheduledTimerWithTimeInterval:0.05f  //间隔时间
                                                target:_waveView2
                                              selector:@selector(timerEvent)
                                              userInfo:nil
