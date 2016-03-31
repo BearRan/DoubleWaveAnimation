@@ -17,6 +17,7 @@
 		1847578B1CABD1C900560D4D /* WaveTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847578A1CABD1C900560D4D /* WaveTestUITests.m */; };
 		1847579D1CABD82900560D4D /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847579C1CABD82900560D4D /* WaveView.m */; };
 		184757A31CABEED100560D4D /* WaveMathObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757A21CABEED100560D4D /* WaveMathObject.m */; };
+		184757A61CACBC6000560D4D /* WaveCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757A51CACBC6000560D4D /* WaveCanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		1847579C1CABD82900560D4D /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 		184757A11CABEED100560D4D /* WaveMathObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveMathObject.h; sourceTree = "<group>"; };
 		184757A21CABEED100560D4D /* WaveMathObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveMathObject.m; sourceTree = "<group>"; };
+		184757A41CACBC6000560D4D /* WaveCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveCanvasView.h; sourceTree = "<group>"; };
+		184757A51CACBC6000560D4D /* WaveCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveCanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				184757691CABD1C900560D4D /* AppDelegate.m */,
 				1847576B1CABD1C900560D4D /* ViewController.h */,
 				1847576C1CABD1C900560D4D /* ViewController.m */,
+				184757A41CACBC6000560D4D /* WaveCanvasView.h */,
+				184757A51CACBC6000560D4D /* WaveCanvasView.m */,
 				1847579B1CABD82900560D4D /* WaveView.h */,
 				1847579C1CABD82900560D4D /* WaveView.m */,
 				184757A11CABEED100560D4D /* WaveMathObject.h */,
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1847576D1CABD1C900560D4D /* ViewController.m in Sources */,
+				184757A61CACBC6000560D4D /* WaveCanvasView.m in Sources */,
 				1847576A1CABD1C900560D4D /* AppDelegate.m in Sources */,
 				184757A31CABEED100560D4D /* WaveMathObject.m in Sources */,
 				184757671CABD1C900560D4D /* main.m in Sources */,
