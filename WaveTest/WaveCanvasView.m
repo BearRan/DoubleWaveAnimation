@@ -32,14 +32,14 @@
         self = nil;
     }
     
-    //  _waveView1
-    _waveView1 = [[WaveView alloc] initWithFrame:self.bounds];
-    _waveView1.fillColor = [[UIColor orangeColor] colorWithAlphaComponent:0.4];
-    _waveView1.fillColor = [UIColor colorWithRed:253/255.0 green:183/255.0 blue:180/255.0 alpha:1];
-    _waveView1.backgroundColor = [UIColor clearColor];
-    [self addSubview:_waveView1];
-    
-    [self initSetParameter_WaveView1];
+//    //  _waveView1
+//    _waveView1 = [[WaveView alloc] initWithFrame:self.bounds];
+//    _waveView1.fillColor = [[UIColor orangeColor] colorWithAlphaComponent:0.4];
+//    _waveView1.fillColor = [UIColor colorWithRed:253/255.0 green:183/255.0 blue:180/255.0 alpha:1];
+//    _waveView1.backgroundColor = [UIColor clearColor];
+//    [self addSubview:_waveView1];
+//    
+//    [self initSetParameter_WaveView1];
     
     
     //  _waveView2

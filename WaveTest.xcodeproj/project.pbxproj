@@ -18,6 +18,7 @@
 		1847579D1CABD82900560D4D /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847579C1CABD82900560D4D /* WaveView.m */; };
 		184757A31CABEED100560D4D /* WaveMathObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757A21CABEED100560D4D /* WaveMathObject.m */; };
 		184757A61CACBC6000560D4D /* WaveCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757A51CACBC6000560D4D /* WaveCanvasView.m */; };
+		184757B71CAD3A9F00560D4D /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184757B61CAD3A9F00560D4D /* TextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		184757A21CABEED100560D4D /* WaveMathObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveMathObject.m; sourceTree = "<group>"; };
 		184757A41CACBC6000560D4D /* WaveCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveCanvasView.h; sourceTree = "<group>"; };
 		184757A51CACBC6000560D4D /* WaveCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveCanvasView.m; sourceTree = "<group>"; };
+		184757B51CAD3A9F00560D4D /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		184757B61CAD3A9F00560D4D /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				184757A51CACBC6000560D4D /* WaveCanvasView.m */,
 				1847579B1CABD82900560D4D /* WaveView.h */,
 				1847579C1CABD82900560D4D /* WaveView.m */,
+				184757B51CAD3A9F00560D4D /* TextView.h */,
+				184757B61CAD3A9F00560D4D /* TextView.m */,
 				184757A11CABEED100560D4D /* WaveMathObject.h */,
 				184757A21CABEED100560D4D /* WaveMathObject.m */,
 				1847576E1CABD1C900560D4D /* Main.storyboard */,
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184757B71CAD3A9F00560D4D /* TextView.m in Sources */,
 				1847576D1CABD1C900560D4D /* ViewController.m in Sources */,
 				184757A61CACBC6000560D4D /* WaveCanvasView.m in Sources */,
 				1847576A1CABD1C900560D4D /* AppDelegate.m in Sources */,
