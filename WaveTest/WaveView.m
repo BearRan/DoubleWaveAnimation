@@ -89,7 +89,7 @@
     CGColorSpaceRelease(rgb);
     
     
-//    CGContextClip(context);//context裁剪路径,后续操作的路径
+    CGContextClip(context);//context裁剪路径,后续操作的路径
     //CGContextDrawLinearGradient(CGContextRef context,CGGradientRef gradient, CGPoint startPoint, CGPoint endPoint,CGGradientDrawingOptions options)
     //gradient渐变颜色,startPoint开始渐变的起始位置,endPoint结束坐标,options开始坐标之前or开始之后开始渐变
     CGContextDrawLinearGradient(context, gradient,CGPointMake
@@ -112,16 +112,16 @@
 //    CGColorSpaceRelease(rgb);
 //    CGContextDrawLinearGradient(context, gradient,CGPointMake(0.0,self.frame.size.height) ,CGPointMake(self.frame.size.width,self.frame.size.height),kCGGradientDrawsAfterEndLocation);
 
-    CGGradientRelease(gradient);
-//    CGContextSetFillColorWithColor(context, _fillColor.CGColor);
-    
-    
-    
-    
-    CGContextAddPath(context, path);
-    CGContextFillPath(context);
-//    CGContextDrawPath(context, kCGPathStroke);
-    CGPathRelease(path);
+//    CGGradientRelease(gradient);
+////    CGContextSetFillColorWithColor(context, _fillColor.CGColor);
+//    
+//    
+//    
+//    
+//    CGContextAddPath(context, path);
+//    CGContextFillPath(context);
+////    CGContextDrawPath(context, kCGPathStroke);
+//    CGPathRelease(path);
 
 }
 
@@ -133,7 +133,6 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSaveGState(context);
     
-    //第二种填充方式
     CGColorSpaceRef rgb = CGColorSpaceCreateDeviceRGB();
     CGFloat colors[] =
     {
@@ -144,19 +143,12 @@
     CGGradientRef gradient = CGGradientCreateWithColorComponents
     (rgb, colors, NULL, sizeof(colors)/(sizeof(colors[0])*4));//形成梯形，渐变的效果
     CGColorSpaceRelease(rgb);
-    //画线形成一个矩形
-    //CGContextSaveGState与CGContextRestoreGState的作用
-    /*
-     CGContextSaveGState函数的作用是将当前图形状态推入堆栈。之后，您对图形状态所做的修改会影响随后的描画操作，但不影响存储在堆栈中的拷贝。在修改完成后，您可以通过CGContextRestoreGState函数把堆栈顶部的状态弹出，返回到之前的图形状态。这种推入和弹出的方式是回到之前图形状态的快速方法，避免逐个撤消所有的状态修改；这也是将某些状态（比如裁剪路径）恢复到原有设置的唯一方式。
-     */
     
     
     CGFloat width   = CGRectGetWidth(self.frame);
     CGFloat bottom  = CGRectGetHeight(self.frame);
     float   y1      = _waveHeight;
 
-    CGContextSaveGState(context);
-    
     CGContextMoveToPoint(context, 0, y1);
     for (float x = 0; x < CGRectGetWidth(self.frame); x++) {
         y1= _wave * sin( x/_w*M_PI + 4 * _b/M_PI ) * 5 + _waveHeight;
@@ -167,13 +159,16 @@
     CGContextAddLineToPoint(context, 0, bottom);
     
     
-    
-    CGContextClip(context);//context裁剪路径,后续操作的路径
-    //CGContextDrawLinearGradient(CGContextRef context,CGGradientRef gradient, CGPoint startPoint, CGPoint endPoint,CGGradientDrawingOptions options)
-    //gradient渐变颜色,startPoint开始渐变的起始位置,endPoint结束坐标,options开始坐标之前or开始之后开始渐变
-    CGContextDrawLinearGradient(context, gradient,CGPointMake(0.0,0.0) ,CGPointMake(0.0,self.frame.size.height),
+    //context裁剪路径,后续操作的路径
+    CGContextClip(context);
+    CGContextDrawLinearGradient(context,
+                                gradient,
+                                CGPointMake(0.0,0.0),
+                                CGPointMake(self.frame.size.width,0.0),
                                 kCGGradientDrawsBeforeStartLocation);
-    CGContextRestoreGState(context);// 恢复到之前的context
+    
+    // 恢复到之前的context
+    CGContextRestoreGState(context);
 }
 
 
